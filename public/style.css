@@ -1,0 +1,291 @@
+/* Navbar styles */
+
+.logo{
+  height: 3rem; 
+  background: darkred; 
+}
+nav {
+	background: darkred;
+	color: white;
+  position: fixed; 
+  width: 100vw; 
+  z-index: 100; 
+
+}
+
+nav li {
+	margin: 0 1rem;
+}
+nav h5 {
+	font-weight: bold;
+
+}
+nav li a{
+  padding: 0.25rem; 
+}
+
+nav li a:hover{
+  background: rgb(191, 54, 54); 
+}
+
+/* Hero */
+
+.hero {
+	height: 50vh;
+	width: 100vw;
+	background: url(https://s3.us-east-1.amazonaws.com/co-assets/assets/images/_w622h415/accountant-vs-bookkeeper.jpg)
+		center/cover no-repeat;
+	position: relative;
+  color: white;
+
+}
+.hero * {
+	z-index: 10;
+}
+.hero:before {
+	content: "";
+	position: absolute;
+	height: 50vh;
+	width: 100vw;
+	background: black;
+	opacity: 0.6;
+}
+
+.hero section{
+  max-width: 1600px; 
+}
+.experience{
+  /* margin-top: 100px; */
+  bottom: -30px; 
+  
+  height: 30px;
+  border-radius: 0px 0px 20px 20px;
+  width: 400px;
+  left: calc(50vw - 200px);
+  padding: 0 .5rem;
+  font-size: 1rem;
+  background: blue; 
+  text-align: center;
+  ;
+  z-index: 100; 
+  min-width: 200px; 
+}
+
+
+
+ .statement p{
+    font-size: 1.3rem;
+  }
+  .statement{
+    text-align: left; 
+  }
+	.heading {
+		background: darkred;
+    color: white; 
+    pad
+	}
+  .statement a{
+    align-self: flex-start;  
+  }
+	.banner {
+    top: 90px;
+	}
+  a{
+    background: darkred; 
+    color: white; 
+    display: inline-block;
+  }
+
+
+
+.btn {
+	padding: 0.75rem 1rem;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.container-review{
+padding: 3rem;
+	grid-gap: 2rem;
+
+
+}
+
+	.container-review section {
+		max-width: 1200px;
+	}
+
+	.info > div {
+		padding: 2rem;
+		// background: black;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+
+	
+	}
+	.info >div img  {
+			width: 300px;
+			height: 200px;
+	}
+  .info >div h3 {
+    	font-size: 1.5rem;
+			margin: 1rem 0;
+      font-weight: bold; 
+
+  }
+  .info >div h4{
+    			margin: 1rem 0;
+			font-size: 1.25rem;
+  }
+  .info > div p{
+		line-height: 1.6;
+			font-size: 1.15rem;
+  }
+	.review-statement-container {
+		text-align: center;
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 2rem;
+	}
+	.reviews {
+		font-size: 1.25rem;
+
+
+	}
+  .reviews p{
+    width: 40%; 
+
+  }
+	.statement {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	
+	}
+
+  .statement-p{
+    	p {
+			font-size: 1.15rem;
+			max-width: 70%;
+			text-align: center;
+		}
+  }
+	.right-quote {
+		position: absolute;
+		right: 10px;
+	}
+
+  @media screen and (max-width: 1600px){
+     .hero p{
+      font-size: 1.15rem; 
+    }
+  }
+  .hamburger{
+    display: none; 
+  }
+	@media screen and  (max-width: 1200px) {
+    .hamburger{
+      display: block; 
+    }
+		.info {
+			grid-template-columns: 1fr;
+		}
+    	.info div {
+		flex-direction: row !important;
+		margin-left: 2rem;
+	}
+    .menu-links{
+      display: none; 
+    }
+    /* h3{
+      font-size: 1.25rem; 
+    } */
+    .hero p{
+      font-size: 1.05rem; 
+    }
+	}
+
+
+
+
+#about{
+  background: darkred; 
+  color: white; 
+}
+article{
+
+  /* width: 80vw; */
+  text-align: center;
+  max-width: 1000px;
+  /* background: blue;  */
+  margin: 0 auto; 
+  grid-template-columns: 1fr 1fr
+  
+}
+
+article p{
+  line-height: 1.6; 
+  text-align: left; 
+}
+ article img{
+  height: 250px;
+}
+
+
+.contact-container{
+  /* background: green;  */
+  width: 50vw; 
+  margin: 0 auto; 
+  padding-bottom: 5rem;
+}
+.contact-container button{
+  width: 200px; 
+  background: blue; 
+}
+
+footer{
+  background: darkred; 
+  color: white;
+  height: 5rem; 
+  
+}
+
+#contact h3{
+ padding-bottom: 2rem;
+}
+
+/* .secondary{
+  color: blue; 
+} */
+
+#services, #contact {
+  background: lightblue; 
+  color: ; 
+}
+
+#contact{
+  padding: 3rem;
+}
+
+
+
+
+
+.line{
+  height: 4px;
+  width: 40px; 
+  background: white; 
+
+}
+
+
